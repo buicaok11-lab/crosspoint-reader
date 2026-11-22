@@ -17,6 +17,7 @@
 #include "EpubReaderActivity.h"
 #include "ReaderUtils.h"
 #include "RecentBooksStore.h"
+#include "VietReadingStore.h"
 #include "SdCardFontSystem.h"
 #include "XtcReaderActivity.h"
 #include "sync/ReadingSessionLog.h"
@@ -138,6 +139,9 @@ void ReaderActivity::flushReaderSession() {
     readerSession.reset();
     return;
   }
+
+  // Thong ke Lich Viet: cong phien doc vao chuoi ngay / muc tieu tuan.
+  VIET_READING.addSession(readerSession.endTime(), readerSession.durationSeconds());
 
   // The history uses the id progress sync uses, so the server files a session under the same book.
   // Plugins always receive the binary id; hash the file only when one of the two needs it.

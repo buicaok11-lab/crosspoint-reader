@@ -1,0 +1,6 @@
+{
+  "name": "VietCulture",
+  "version": "1.0.0",
+  "description": "Lich am, ngay le, ca dao tuc ngu va thong ke doc sach cho CrossPoint Viet",
+  "build": { "flags": ["-std=gnu++2a"] }
+}
