@@ -1,7 +1,7 @@
 #pragma once
 #include <ArduinoJson.h>
 #include <PersistableStore.h>
-#include <VietCulture/ReadingGoals.h>
+#include <ReadingGoals.h>
 
 #include <cstdint>
 
