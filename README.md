@@ -298,3 +298,4 @@ Want to build your own device? Be sure to check out the [Silkscreen](https://sil
 ---
 
 CrossPoint Reader is **not affiliated with Xteink or any device manufacturer**.
+
