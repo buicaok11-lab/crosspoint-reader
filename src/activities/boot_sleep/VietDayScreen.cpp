@@ -2,9 +2,9 @@
 
 #include <GfxRenderer.h>
 #include <TrustedTime.h>
-#include <VietCulture/LunarCalendar.h>
-#include <VietCulture/Proverbs.h>
-#include <VietCulture/ReadingGoals.h>
+#include <LunarCalendar.h>
+#include <Proverbs.h>
+#include <ReadingGoals.h>
 
 #include <cstdio>
 #include <string>
